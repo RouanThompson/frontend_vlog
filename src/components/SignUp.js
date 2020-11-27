@@ -33,6 +33,7 @@ class SignUp extends React.Component{
                 last_name: this.state.lastName,
                 username: this.state.username,
                 password: this.state.password
+                //the key in this object must match the the backend params, and the attributes of the model
             }
         }
         // does this need to be snake case? or camel case
