@@ -61,17 +61,17 @@ class SignUp extends React.Component{
                     {/* fieldset lines can be changed with CSS */}
                     <legend>Sign Up!</legend>
                     {/* legend tag is used as caption of the purpose of the group form controls */}
-                    <label for="firstname">First Name: <input id="firstname" type="text" name="firstName" placeholder="First Name" value={this.state.firstName} onChange={this.handleChange} required/> </label>
+                    <label htmlFor="firstname">First Name: <input id="firstname" type="text" name="firstName" placeholder="First Name" value={this.state.firstName} onChange={this.handleChange} required/> </label>
                     {/* label tags are being used for the vision impaired user */}
                     {/* the for attribute use the id attribute value of the form control it is labeling*/}
                     <br />
                     {/* elements with no words between open and closing tags are empty elements*/}
-                    <label for="lastname">Last Name: <input id="lastname" type="text" name="lastName" placeholder="Last Name" value={this.state.lastName} onChange={this.handleChange} required/> </label>
+                    <label htmlFor="lastname">Last Name: <input id="lastname" type="text" name="lastName" placeholder="Last Name" value={this.state.lastName} onChange={this.handleChange} required/> </label>
                     <br />
-                    <label for="username">Username: <input id="username" type="text" name="username" placeholder="User Name" value={this.state.username} onChange={this.handleChange} required/> </label>
+                    <label htmlFor="username">Username: <input id="username" type="text" name="username" placeholder="User Name" value={this.state.username} onChange={this.handleChange} required/> </label>
                     {/* <input name="email" placeholder="email" /> */}
                     <br />
-                    <label for="password">Password: <input id="password" type="password" name="password" placeholder="Password" value={this.state.password} onChange={this.handleChange} required/></label>
+                    <label htmlFor="password">Password: <input id="password" type="password" name="password" placeholder="Password" value={this.state.password} onChange={this.handleChange} required/></label>
                     {/* type attribute set to password hides the input in the password field when the user types */}
                     {/* ...this does not make the password secure when the form is submit */}
                     <br />
@@ -79,7 +79,7 @@ class SignUp extends React.Component{
                     {/* button does not need type attribut to be set to submit */}
                 </fieldset>
                 <div>
-                    Already have an account? Login
+                    Already have an account? <a href="login"> Login </a>
                 </div>
 
             </>
