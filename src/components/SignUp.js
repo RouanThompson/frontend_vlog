@@ -19,7 +19,7 @@ class SignUp extends React.Component{
             [name]: value
         })
         // why use setState?
-        // we use to change the state
+        // we use it to change the state
         // we use it to trigger a render after changing the state
     }
 
@@ -63,7 +63,7 @@ class SignUp extends React.Component{
                     {/* legend tag is used as caption of the purpose of the group form controls */}
                     <label htmlFor="firstname">First Name: <input id="firstname" type="text" name="firstName" placeholder="First Name" value={this.state.firstName} onChange={this.handleChange} required/> </label>
                     {/* label tags are being used for the vision impaired user */}
-                    {/* the for attribute use the id attribute value of the form control it is labeling*/}
+                    {/* the htmlFor attribute should use the id attribute value of the form control it is labeling*/}
                     <br />
                     {/* elements with no words between open and closing tags are empty elements*/}
                     <label htmlFor="lastname">Last Name: <input id="lastname" type="text" name="lastName" placeholder="Last Name" value={this.state.lastName} onChange={this.handleChange} required/> </label>
@@ -76,7 +76,7 @@ class SignUp extends React.Component{
                     {/* ...this does not make the password secure when the form is submit */}
                     <br />
                     <button> Create Account </button>
-                    {/* button does not need type attribut to be set to submit */}
+                    {/* button does not need type attribute to be set to submit */}
                 </fieldset>
                 <div>
                     Already have an account? <a href="login"> Login </a>
