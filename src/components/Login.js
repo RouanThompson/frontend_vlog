@@ -18,11 +18,11 @@ class Login extends React.Component {
           </label>
           <br />
           <button> Login </button>
-          <p>
-            Dont have an account? <a href="signup">Sign up here</a>
-          </p>
           {/* i believe this anchor causes the page to refresh....use routes instead */}
         </fieldset>
+        <p>
+            Dont have an account? <a href="signup">Sign up here</a>
+        </p>
       </>
     );
   }

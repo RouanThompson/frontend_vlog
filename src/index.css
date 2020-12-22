@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
 
-form {
-    background-color: #31326f;
+body {
+    background-color: black;
+    color: pink;
 }
 
 legend {
     font-family: 'Patua One', monospace;
     font-size: 30px;
-    color: #9ddfd3;
+    color: #d38679;
 }
 
 label {
@@ -19,9 +20,9 @@ label {
 fieldset {
     border-style: solid;
     border-width: 10px;
-    border-color: #ffdada;
+    border-color: #a685e2;
     border-radius: 20px;
-    background-color: #31326f;
+    background-color: #6155a6;
 }
 #signup-form-first-name {
     margin-left: 20px;
@@ -35,10 +36,11 @@ fieldset {
     margin-left: 43px;
 }
 
-.signup-form-border-margin {
-    margin-bottom: 10px;
+.signup-form-inputs {
+    padding: 5px;
+    margin-bottom: 20px;
     border-style: solid;
     border-width: 4px;
-    border-radius: 9px;
-    border-color: #ffdada;
+    border-radius: 15px;
+    border-color: #d38679;
 }

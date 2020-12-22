@@ -64,7 +64,7 @@ class SignUp extends React.Component {
               First Name:{" "}
               <input
                 id="signup-form-first-name"
-                className="signup-form-border-margin"
+                className="signup-form-inputs"
                 type="text"
                 name="firstName"
                 placeholder="First Name"
@@ -81,7 +81,7 @@ class SignUp extends React.Component {
               Last Name:{" "}
               <input
                 id="signup-form-last-name"
-                className="signup-form-border-margin"
+                className="signup-form-inputs"
                 type="text"
                 name="lastName"
                 placeholder="Last Name"
@@ -94,7 +94,7 @@ class SignUp extends React.Component {
             <label htmlFor="username">
               Username:{" "}
               <input
-                className="signup-form-username-password signup-form-border-margin"
+                className="signup-form-username-password signup-form-inputs"
                 type="text"
                 name="username"
                 placeholder="User Name"
@@ -108,7 +108,7 @@ class SignUp extends React.Component {
             <label htmlFor="password">
               Password:{" "}
               <input
-                className="signup-form-username-password signup-form-border-margin"
+                className="signup-form-username-password signup-form-inputs"
                 type="password"
                 name="password"
                 placeholder="Password"
@@ -124,9 +124,9 @@ class SignUp extends React.Component {
             {/* button does not need type attribute to be set to submit */}
           </fieldset>
         </form>
-        <div>
+        <p>
           Already have an account? <a href="login"> Login </a>
-        </div>
+        </p>
       </>
     );
   }
