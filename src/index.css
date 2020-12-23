@@ -7,40 +7,40 @@ body {
 
 legend {
     font-family: 'Patua One', monospace;
-    font-size: 30px;
+    font-size: 3em;
     color: #d38679;
 }
 
 label {
     font-family: monospace;
-    font-size: 20px;
+    font-size: 2em;
     color: #9ddfd3;
 }
 
 fieldset {
     border-style: solid;
-    border-width: 10px;
+    border-width: 1em;
     border-color: #a685e2;
-    border-radius: 20px;
+    border-radius: 2em;
     background-color: #6155a6;
 }
 #signup-form-first-name {
-    margin-left: 20px;
+    margin-left: 1em;
 }
 
 #signup-form-last-name {
-    margin-left: 32px;
+    margin-left: 2.1em;
 }
 
 .signup-form-username-password {
-    margin-left: 43px;
+    margin-left: 3.2em;
 }
 
 .signup-form-inputs {
-    padding: 5px;
-    margin-bottom: 20px;
+    padding: 0.6em;
+    margin-bottom: 2em;
     border-style: solid;
-    border-width: 4px;
-    border-radius: 15px;
+    border-width: 0.4em;
+    border-radius: 3em;
     border-color: #d38679;
 }
