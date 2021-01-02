@@ -125,7 +125,7 @@ class SignUp extends React.Component {
           </fieldset>
         </form>
         <p>
-          Already have an account? <a href="login"> Login </a>
+          Already have an account? <a href="login" className="links"> Login </a>
         </p>
       </>
     );

@@ -1,46 +1,61 @@
 @import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
 
 body {
-    background-color: black;
+    /* background-color: #f0d66ec0; */
     color: pink;
 }
 
 legend {
     font-family: 'Patua One', monospace;
-    font-size: 3em;
+    font-size: 60px;
+    font-weight: 100;
     color: #d38679;
+    background-color: rgba(132, 80, 139, 0.9);
+    border-radius: 20px;
+    padding: 10px;
 }
 
 label {
     font-family: monospace;
-    font-size: 2em;
+    font-size: 30px;
     color: #9ddfd3;
 }
 
 fieldset {
     border-style: solid;
-    border-width: 1em;
+    border-width: 20px;
     border-color: #a685e2;
-    border-radius: 2em;
+    border-radius: 30px;
     background-color: #6155a6;
+    box-shadow: 5px 5px 5px 7px rgba(206, 151, 194, 0.9);
 }
+
+.links {
+    opacity: 0.7;
+}
+
 #signup-form-first-name {
-    margin-left: 1em;
+    margin-left: 20px;
 }
 
 #signup-form-last-name {
-    margin-left: 2.1em;
+    margin-left: 40px;
 }
 
 .signup-form-username-password {
-    margin-left: 3.2em;
+    margin-left: 55px;
 }
 
 .signup-form-inputs {
-    padding: 0.6em;
-    margin-bottom: 2em;
+    padding: 10px;
+    margin-bottom: 20px;
     border-style: solid;
-    border-width: 0.4em;
-    border-radius: 3em;
+    border-width: 5px;
+    border-radius: 40px;
     border-color: #d38679;
+}
+
+[type='text'] {
+    color: rgb(44, 160, 196);
+    font-size: 20px;
 }
