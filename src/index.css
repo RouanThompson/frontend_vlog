@@ -21,6 +21,8 @@ label {
     color: #9ddfd3;
     position: relative;
     left: 50px;
+    /* float: left; */
+    /* width: 50%; */
 }
 
 fieldset {
@@ -30,6 +32,18 @@ fieldset {
     border-radius: 30px;
     background-color: #6155a6;
     box-shadow: 5px 5px 10px 5px rgba(206, 151, 194, 0.9);
+    width: 600px;
+    margin: auto;
+} 
+
+button {
+    font-family: 'Patua One', monospace;
+    font-size: 30px;
+    font-weight: 100;
+    color: #d38679;
+    background-color: rgba(132, 80, 139, 0.5);
+    border-radius: 30px;
+    padding: 10px;
 }
 
 .links {
