@@ -45,6 +45,20 @@ button {
     background-color: rgba(132, 80, 139, 0.5);
     border-radius: 30px;
     padding: 10px;
+    position: relative;
+}
+
+button:hover {
+    animation-name: color;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes color {
+    100% {
+        background: linear-gradient(35deg, purple, cyan);
+        opacity: 0.6;
+    }
 }
 
 .links {
@@ -75,4 +89,21 @@ button {
 [type='text'] {
     color: rgb(44, 160, 196);
     font-size: 20px;
+}
+
+#anim {
+    animation-name: rainbow;
+    animation-duration: 4s;
+}
+
+@keyframes rainbow {
+    0% {
+        background-color: cyan;
+    }
+    50% {
+        background-color: blue;
+    }
+    100% {
+        background-color: purple;
+    }
 }
