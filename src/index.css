@@ -1,63 +1,65 @@
 @import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
 
 body {
-    background: linear-gradient(35deg, purple, cyan);
+    background: linear-gradient(90deg, purple, violet, cyan);
     /* background-color: black; */
     color: pink;
 }
 
 legend {
     font-family: 'Patua One', monospace;
-    font-size: 60px;
+    font-size: 5vw;
     font-weight: 100;
     color: #d38679;
     background-color: rgba(132, 80, 139, 0.7);
-    border-radius: 20px;
-    padding: 10px;
+    border-radius: 2vw;
+    padding: 1vw;
 }
 
 label {
     font-family: monospace;
-    font-size: 30px;
+    font-size: 3vw;
     color: #9ddfd3;
     position: relative;
-    left: 50px;
+    left: 4vw;
     /* float: left; */
     /* width: 50%; */
 }
 
 fieldset {
     border-style: solid;
-    border-width: 20px;
+    border-width: 2vw;
     border-color: #a685e2;
-    border-radius: 30px;
+    border-radius: 4vw;
     background-color: #6155a6;
-    box-shadow: 5px 5px 10px 5px rgba(206, 151, 194, 0.9);
-    width: 600px;
+    box-shadow: 0.5vw 0.5vw 4vw 0vw rgb(0, 0, 0);
+    width: 52vw;
     margin: auto;
+    /* position: relative; */
+    /* left: 20vw; */
 } 
 
 button {
     font-family: 'Patua One', monospace;
-    font-size: 30px;
+    font-size: 3vw;
     font-weight: 100;
     color: #d38679;
     background-color: rgba(132, 80, 139, 0.5);
-    border-radius: 30px;
-    padding: 10px;
+    border-radius: 3vw;
+    padding: 1vw;
     position: relative;
 }
 
 button:hover {
-    animation-name: color;
-    animation-duration: 500ms;
+    animation-name: button-ani;
+    /* animation-duration: 500ms; */
     animation-fill-mode: forwards;
 }
 
-@keyframes color {
+@keyframes button-ani {
     100% {
         background: linear-gradient(35deg, purple, cyan);
-        opacity: 0.6;
+        opacity: 0.8;
     }
 }
 
@@ -66,39 +68,45 @@ button:hover {
 }
 
 #signup-form-first-name {
-    margin-left: 20px;
+    margin-left: 1vw;
 }
 
 #signup-form-last-name {
-    margin-left: 40px;
+    margin-left: 2.6vw;
 }
 
 .signup-form-username-password {
-    margin-left: 55px;
+    margin-left: 4.5vw;
 }
 
 .signup-form-inputs {
-    padding: 10px;
-    margin-bottom: 20px;
+    padding: 1vw;
+    margin-bottom: 2vw;
     border-style: solid;
-    border-width: 5px;
-    border-radius: 40px;
+    border-width: 0.5vw;
+    border-radius: 3vw;
     border-color: #d38679;
 }
 
 [type='text'] {
-    color: rgb(44, 160, 196);
-    font-size: 20px;
+    color: black;
+    font-size: 2vw;
 }
 
-#anim {
+[type="password"] {
+    color: red;
+    font-size: 2vw;
+}
+
+#legend-anim {
     animation-name: rainbow;
     animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
 
 @keyframes rainbow {
     0% {
-        background-color: cyan;
+        background-color: purple;
     }
     50% {
         background-color: blue;

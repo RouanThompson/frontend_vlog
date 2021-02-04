@@ -58,7 +58,7 @@ class SignUp extends React.Component {
             {/* fieldset tag groups field controls together and has line around them to show they are grouped*/}
             {/* form controls are tags used to gather user input */}
             {/* fieldset lines can be changed with CSS */}
-            <legend id="anim">Sign Up!</legend>
+            <legend id="legend-anim">Sign Up!</legend>
             {/* legend tag is used as caption of the purpose of the group form controls */}
             <label htmlFor="firstname">
               First Name:{" "}
@@ -124,9 +124,11 @@ class SignUp extends React.Component {
             {/* button does not need type attribute to be set to submit */}
           </fieldset>
         </form>
-        <p>
-          Already have an account? <a href="login" className="links"> Login </a>
-        </p>
+        <div>
+          <p>
+            Already have an account? <a href="login" className="links"> Login here</a>
+          </p>
+        </div>
       </>
     );
   }
