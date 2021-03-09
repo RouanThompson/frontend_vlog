@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
 
 body {
-    background: linear-gradient(90deg, purple, violet, cyan);
+    background: linear-gradient(90deg, black, purple, violet, cyan, black);
     /* background-color: black; */
     color: pink;
 }
@@ -10,8 +10,9 @@ legend {
     font-family: 'Patua One', monospace;
     font-size: 5vw;
     font-weight: 100;
-    color: #d38679;
-    background-color: rgba(132, 80, 139, 0.7);
+    color: black;
+    background-color: cyan;
+    box-shadow: 0.5vw 0.5vw 4vw 0vw rgb(0, 0, 0);
     border-radius: 2vw;
     padding: 1vw;
 }
@@ -22,8 +23,6 @@ label {
     color: #9ddfd3;
     position: relative;
     left: 4vw;
-    /* float: left; */
-    /* width: 50%; */
 }
 
 fieldset {
@@ -35,7 +34,7 @@ fieldset {
     box-shadow: 0.5vw 0.5vw 4vw 0vw rgb(0, 0, 0);
     width: 52vw;
     margin: auto;
-    /* position: relative; */
+    /* position: absolute; */
     /* left: 20vw; */
 } 
 
@@ -54,6 +53,8 @@ button:hover {
     animation-name: button-ani;
     /* animation-duration: 500ms; */
     animation-fill-mode: forwards;
+    transform: scale(1.1);
+    transition: 0.3s;
 }
 
 @keyframes button-ani {
@@ -99,19 +100,22 @@ button:hover {
 }
 
 #legend-anim {
-    animation-name: rainbow;
+    animation-name: legend-rainbow;
     animation-duration: 4s;
     animation-iteration-count: infinite;
 }
 
-@keyframes rainbow {
+@keyframes legend-rainbow {
     0% {
-        background-color: purple;
+        background-color: cyan;
+        opacity: 0.7;
     }
     50% {
-        background-color: blue;
+        background-color: violet;
+        opacity: 0.7;
     }
     100% {
-        background-color: purple;
+        background-color: cyan;
+        opacity: 0.7;
     }
 }
